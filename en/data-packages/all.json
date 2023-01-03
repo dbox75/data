@@ -3,6 +3,1242 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "2-2-3/data.csv",
+      "name": "2-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)"
+    },
+    {
+      "path": "6-3-1/data.csv",
+      "name": "6-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of domestic and industrial wastewater flows safely treated"
+    },
+    {
+      "path": "4-1-2/data.csv",
+      "name": "4-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Completion rate (primary education, lower secondary education, upper secondary education)"
+    },
+    {
+      "path": "1-2-3/data.csv",
+      "name": "1-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.1-2-3-title"
+    },
+    {
+      "path": "5-2-5/data.csv",
+      "name": "5-2-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-2-5-title"
+    },
+    {
+      "path": "1-2-2/data.csv",
+      "name": "1-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions"
+    },
+    {
+      "path": "2-1-1/data.csv",
+      "name": "2-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prevalence of undernourishment"
+    },
+    {
+      "path": "6-2-4/data.csv",
+      "name": "6-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "구분",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "사업체수",
+                "종사자수",
+                ""
+              ]
+            },
+            "title": "구분"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.6-2-4-title"
+    },
+    {
+      "path": "5-4-3/data.csv",
+      "name": "5-4-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-3-title"
+    },
+    {
+      "path": "3-1-3/data.csv",
+      "name": "3-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.3-1-3-title"
+    },
+    {
+      "path": "4-2-4/data.csv",
+      "name": "4-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.4-2-4-title"
+    },
+    {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of population living below the national poverty line, by sex and age"
+    },
+    {
+      "path": "5-2-6/data.csv",
+      "name": "5-2-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-2-6-title"
+    },
+    {
+      "path": "6-1-1/data.csv",
+      "name": "6-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of population using safely managed drinking water services"
+    },
+    {
+      "path": "6-3-3/data.csv",
+      "name": "6-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.6-3-3-title"
+    },
+    {
+      "path": "5-2-2/data.csv",
+      "name": "5-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence"
+    },
+    {
+      "path": "5-1-3/data.csv",
+      "name": "5-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "* 서울 본청",
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "* 인천 본청",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "* 경기 본청",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-1-3-title"
+    },
+    {
+      "path": "5-4-5/data.csv",
+      "name": "5-4-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-5-title"
+    },
+    {
+      "path": "3-1-2/data.csv",
+      "name": "3-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of births attended by skilled health personnel"
+    },
+    {
+      "path": "6-1-2/data.csv",
+      "name": "6-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.6-1-2-title"
+    },
+    {
+      "path": "5-3-1/data.csv",
+      "name": "5-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -18,16 +1254,337 @@
             "title": "Year"
           },
           {
-            "name": "Group",
+            "name": "지역",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
                 ""
               ]
             },
-            "title": "Group"
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
+    },
+    {
+      "path": "2-2-1/data.csv",
+      "name": "2-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age"
+    },
+    {
+      "path": "2-2-2/data.csv",
+      "name": "2-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)"
+    },
+    {
+      "path": "5-4-6/data.csv",
+      "name": "5-4-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-6-title"
+    },
+    {
+      "path": "5-1-2/data.csv",
+      "name": "5-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "* 서울 본청",
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "* 인천 본청",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "* 경기 본청",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
           },
           {
             "name": "Value",
@@ -36,7 +1593,682 @@
           }
         ]
       },
-      "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
+      "title": "global_indicators.5-1-2-title"
+    },
+    {
+      "path": "5-4-2/data.csv",
+      "name": "5-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-2-title"
+    },
+    {
+      "path": "5-2-1/data.csv",
+      "name": "5-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age"
+    },
+    {
+      "path": "5-3-4/data.csv",
+      "name": "5-3-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-4-title"
+    },
+    {
+      "path": "2-1-2/data.csv",
+      "name": "2-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)"
+    },
+    {
+      "path": "5-3-3/data.csv",
+      "name": "5-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-3-title"
+    },
+    {
+      "path": "5-2-3/data.csv",
+      "name": "5-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-2-3-title"
+    },
+    {
+      "path": "3-2-1/data.csv",
+      "name": "3-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Under‐5 mortality rate"
+    },
+    {
+      "path": "6-2-3/data.csv",
+      "name": "6-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.6-2-3-title"
+    },
+    {
+      "path": "6-2-2/data.csv",
+      "name": "6-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.6-2-2-title"
+    },
+    {
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Maternal mortality ratio"
+    },
+    {
+      "path": "4-2-2/data.csv",
+      "name": "4-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Participation rate in organized learning (one year before the official primary entry age), by sex"
+    },
+    {
+      "path": "3-2-2/data.csv",
+      "name": "3-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Neonatal mortality rate"
+    },
+    {
+      "path": "4-2-1/data.csv",
+      "name": "4-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex"
     },
     {
       "path": "5-4-4/data.csv",
@@ -50,8 +2282,23 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
           },
           {
             "name": "Value",
@@ -61,6 +2308,633 @@
         ]
       },
       "title": "global_indicators.5-4-4-title"
+    },
+    {
+      "path": "5-1-1/data.csv",
+      "name": "5-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "* 서울 본청",
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "* 인천 본청",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "* 경기 본청",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex"
+    },
+    {
+      "path": "1-1-2/data.csv",
+      "name": "1-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.1-1-2-title"
+    },
+    {
+      "path": "4-1-1/data.csv",
+      "name": "4-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex"
+    },
+    {
+      "path": "5-3-2/data.csv",
+      "name": "5-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age"
+    },
+    {
+      "path": "6-1-3/data.csv",
+      "name": "6-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.6-1-3-title"
+    },
+    {
+      "path": "6-2-1/data.csv",
+      "name": "6-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water"
+    },
+    {
+      "path": "6-3-2/data.csv",
+      "name": "6-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of bodies of water with good ambient water quality"
+    },
+    {
+      "path": "5-4-1/data.csv",
+      "name": "5-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            },
+            "title": "시군구"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location"
+    },
+    {
+      "path": "5-2-4/data.csv",
+      "name": "5-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            },
+            "title": "시도"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.5-2-4-title"
+    },
+    {
+      "path": "4-2-3/data.csv",
+      "name": "4-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            },
+            "title": "지역"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.4-2-3-title"
     },
     {
       "path": "11-1-1/data.csv",
@@ -159,54 +3033,6 @@
       "title": "global_indicators.7-1-3-title"
     },
     {
-      "path": "1-2-3/data.csv",
-      "name": "1-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.1-2-3-title"
-    },
-    {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Maternal mortality ratio"
-    },
-    {
       "path": "10-2-3/data.csv",
       "name": "10-2-3",
       "profile": "tabular-data-resource",
@@ -231,54 +3057,6 @@
       "title": "global_indicators.10-2-3-title"
     },
     {
-      "path": "4-1-1/data.csv",
-      "name": "4-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex"
-    },
-    {
-      "path": "5-3-1/data.csv",
-      "name": "5-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18"
-    },
-    {
       "path": "10-2-2/data.csv",
       "name": "10-2-2",
       "profile": "tabular-data-resource",
@@ -301,30 +3079,6 @@
         ]
       },
       "title": "global_indicators.10-2-2-title"
-    },
-    {
-      "path": "6-3-3/data.csv",
-      "name": "6-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.6-3-3-title"
     },
     {
       "path": "9-6-3/data.csv",
@@ -399,126 +3153,6 @@
       "title": "CO2 emission per unit of value added"
     },
     {
-      "path": "6-2-3/data.csv",
-      "name": "6-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.6-2-3-title"
-    },
-    {
-      "path": "1-2-2/data.csv",
-      "name": "1-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions"
-    },
-    {
-      "path": "2-2-2/data.csv",
-      "name": "2-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)"
-    },
-    {
-      "path": "5-1-3/data.csv",
-      "name": "5-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-1-3-title"
-    },
-    {
-      "path": "4-2-4/data.csv",
-      "name": "4-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.4-2-4-title"
-    },
-    {
       "path": "9-6-6/data.csv",
       "name": "9-6-6",
       "profile": "tabular-data-resource",
@@ -541,30 +3175,6 @@
         ]
       },
       "title": "global_indicators.9-6-6-title"
-    },
-    {
-      "path": "2-2-1/data.csv",
-      "name": "2-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age"
     },
     {
       "path": "11-2-4/data.csv",
@@ -783,78 +3393,6 @@
       "title": "global_indicators.10-1-6-title"
     },
     {
-      "path": "5-2-3/data.csv",
-      "name": "5-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-3-title"
-    },
-    {
-      "path": "6-2-1/data.csv",
-      "name": "6-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water"
-    },
-    {
-      "path": "4-2-2/data.csv",
-      "name": "4-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Participation rate in organized learning (one year before the official primary entry age), by sex"
-    },
-    {
       "path": "8-1-1/data.csv",
       "name": "8-1-1",
       "profile": "tabular-data-resource",
@@ -879,78 +3417,6 @@
       "title": "Annual growth rate of real GDP per capita"
     },
     {
-      "path": "4-2-1/data.csv",
-      "name": "4-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex"
-    },
-    {
-      "path": "5-3-2/data.csv",
-      "name": "5-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age"
-    },
-    {
-      "path": "5-4-3/data.csv",
-      "name": "5-4-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-3-title"
-    },
-    {
       "path": "11-1-3/data.csv",
       "name": "11-1-3",
       "profile": "tabular-data-resource",
@@ -973,54 +3439,6 @@
         ]
       },
       "title": "global_indicators.11-1-3-title"
-    },
-    {
-      "path": "5-2-6/data.csv",
-      "name": "5-2-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-6-title"
-    },
-    {
-      "path": "5-3-3/data.csv",
-      "name": "5-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-3-3-title"
     },
     {
       "path": "9-6-1/data.csv",
@@ -1095,30 +3513,6 @@
       "title": "global_indicators.9-3-3-title"
     },
     {
-      "path": "5-4-6/data.csv",
-      "name": "5-4-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-6-title"
-    },
-    {
       "path": "9-3-1/data.csv",
       "name": "9-3-1",
       "profile": "tabular-data-resource",
@@ -1165,54 +3559,6 @@
         ]
       },
       "title": "global_indicators.10-1-2-title"
-    },
-    {
-      "path": "6-2-2/data.csv",
-      "name": "6-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.6-2-2-title"
-    },
-    {
-      "path": "5-2-4/data.csv",
-      "name": "5-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-4-title"
     },
     {
       "path": "9-6-5/data.csv",
@@ -1263,150 +3609,6 @@
       "title": "global_indicators.9-6-4-title"
     },
     {
-      "path": "4-2-3/data.csv",
-      "name": "4-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.4-2-3-title"
-    },
-    {
-      "path": "3-1-2/data.csv",
-      "name": "3-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of births attended by skilled health personnel"
-    },
-    {
-      "path": "5-2-2/data.csv",
-      "name": "5-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence"
-    },
-    {
-      "path": "6-1-1/data.csv",
-      "name": "6-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of population using safely managed drinking water services"
-    },
-    {
-      "path": "5-2-5/data.csv",
-      "name": "5-2-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-5-title"
-    },
-    {
-      "path": "3-1-3/data.csv",
-      "name": "3-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.3-1-3-title"
-    },
-    {
       "path": "11-1-2/data.csv",
       "name": "11-1-2",
       "profile": "tabular-data-resource",
@@ -1455,30 +3657,6 @@
       "title": "Manufacturing value added as a proportion of GDP and per capita"
     },
     {
-      "path": "6-3-1/data.csv",
-      "name": "6-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of domestic and industrial wastewater flows safely treated"
-    },
-    {
       "path": "9-1-6/data.csv",
       "name": "9-1-6",
       "profile": "tabular-data-resource",
@@ -1501,78 +3679,6 @@
         ]
       },
       "title": "global_indicators.9-1-6-title"
-    },
-    {
-      "path": "5-4-1/data.csv",
-      "name": "5-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location"
-    },
-    {
-      "path": "5-4-5/data.csv",
-      "name": "5-4-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-5-title"
-    },
-    {
-      "path": "6-1-3/data.csv",
-      "name": "6-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.6-1-3-title"
     },
     {
       "path": "10-1-1/data.csv",
@@ -1621,126 +3727,6 @@
         ]
       },
       "title": "global_indicators.10-1-3-title"
-    },
-    {
-      "path": "5-2-1/data.csv",
-      "name": "5-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age"
-    },
-    {
-      "path": "2-1-2/data.csv",
-      "name": "2-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)"
-    },
-    {
-      "path": "6-3-2/data.csv",
-      "name": "6-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of bodies of water with good ambient water quality"
-    },
-    {
-      "path": "5-3-4/data.csv",
-      "name": "5-3-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-3-4-title"
-    },
-    {
-      "path": "2-2-3/data.csv",
-      "name": "2-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)"
     },
     {
       "path": "9-5-3/data.csv",
@@ -1861,54 +3847,6 @@
         ]
       },
       "title": "global_indicators.7-1-4-title"
-    },
-    {
-      "path": "5-1-2/data.csv",
-      "name": "5-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-1-2-title"
-    },
-    {
-      "path": "1-1-2/data.csv",
-      "name": "1-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.1-1-2-title"
     },
     {
       "path": "9-3-2/data.csv",
@@ -2055,30 +3993,6 @@
       "title": "global_indicators.11-2-2-title"
     },
     {
-      "path": "5-1-1/data.csv",
-      "name": "5-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex"
-    },
-    {
       "path": "9-2-2/data.csv",
       "name": "9-2-2",
       "profile": "tabular-data-resource",
@@ -2101,30 +4015,6 @@
         ]
       },
       "title": "Manufacturing employment as a proportion of total employment"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of population living below the national poverty line, by sex and age"
     },
     {
       "path": "11-2-1/data.csv",
@@ -2247,30 +4137,6 @@
       "title": "Research and development expenditure as a proportion of GDP"
     },
     {
-      "path": "4-1-2/data.csv",
-      "name": "4-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Completion rate (primary education, lower secondary education, upper secondary education)"
-    },
-    {
       "path": "9-2-4/data.csv",
       "name": "9-2-4",
       "profile": "tabular-data-resource",
@@ -2293,54 +4159,6 @@
         ]
       },
       "title": "global_indicators.9-2-4-title"
-    },
-    {
-      "path": "2-1-1/data.csv",
-      "name": "2-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Prevalence of undernourishment"
-    },
-    {
-      "path": "6-2-4/data.csv",
-      "name": "6-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.6-2-4-title"
     },
     {
       "path": "9-4-2/data.csv",
@@ -2367,54 +4185,6 @@
       "title": "global_indicators.9-4-2-title"
     },
     {
-      "path": "5-4-2/data.csv",
-      "name": "5-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-2-title"
-    },
-    {
-      "path": "3-2-2/data.csv",
-      "name": "3-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Neonatal mortality rate"
-    },
-    {
       "path": "9-1-5/data.csv",
       "name": "9-1-5",
       "profile": "tabular-data-resource",
@@ -2437,54 +4207,6 @@
         ]
       },
       "title": "global_indicators.9-1-5-title"
-    },
-    {
-      "path": "3-2-1/data.csv",
-      "name": "3-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Under‐5 mortality rate"
-    },
-    {
-      "path": "6-1-2/data.csv",
-      "name": "6-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "global_indicators.6-1-2-title"
     }
   ]
 }
