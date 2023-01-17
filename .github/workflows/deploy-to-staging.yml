@@ -20,15 +20,20 @@ on:
     branches:
       - develop
 
+permissions:
+  contents: write
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     - name: Set up Python 3.7
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v1
       with:
         python-version: 3.7
     - name: Install dependencies
@@ -39,15 +44,15 @@ jobs:
       run: |
         python scripts/build_data.py
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
-        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: _site
         CLEAN: true
     - name: Waiting 4 minutes for staging data deployment
       run: |
-              #sleep 240
+        sleep 240
     - name: Rebuild site
       run: |
         curl -X POST https://api.github.com/repos/STAGING_ORGANISATION/STAGING_SITE_REPOSITORY/dispatches \
