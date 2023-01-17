@@ -3,83 +3,8 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "2-2-3/data.csv",
-      "name": "2-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.2-2-3-title"
-    },
-    {
-      "path": "6-3-1/data.csv",
-      "name": "6-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.6-3-1-title"
-    },
-    {
-      "path": "9-6-3/data.csv",
-      "name": "9-6-3",
+      "path": "7-1-2/data.csv",
+      "name": "7-1-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -143,7 +68,6 @@
                 "부평구",
                 "서구",
                 "연수구",
-                "옹진군",
                 "가평군",
                 "고양시",
                 "과천시",
@@ -185,11 +109,11 @@
           }
         ]
       },
-      "title": "global_indicators.9-6-3-title"
+      "title": "global_indicators.7-1-2-title"
     },
     {
-      "path": "4-1-2/data.csv",
-      "name": "4-1-2",
+      "path": "6-3-3/data.csv",
+      "name": "6-3-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -202,18 +126,15 @@
             "type": "integer"
           },
           {
-            "name": "지역",
+            "name": "시도",
             "type": "string",
             "constraints": {
               "enum": [
                 "0.전국",
                 "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
                 ""
               ]
             }
@@ -224,11 +145,11 @@
           }
         ]
       },
-      "title": "global_indicators.4-1-2-title"
+      "title": "global_indicators.6-3-3-title"
     },
     {
-      "path": "1-2-3/data.csv",
-      "name": "1-2-3",
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -263,11 +184,11 @@
           }
         ]
       },
-      "title": "global_indicators.1-2-3-title"
+      "title": "global_indicators.1-2-1-title"
     },
     {
-      "path": "10-1-1/data.csv",
-      "name": "10-1-1",
+      "path": "9-3-1/data.csv",
+      "name": "9-3-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -299,11 +220,11 @@
           }
         ]
       },
-      "title": "global_indicators.10-1-1-title"
+      "title": "global_indicators.9-3-1-title"
     },
     {
-      "path": "8-1-1/data.csv",
-      "name": "8-1-1",
+      "path": "9-4-1/data.csv",
+      "name": "9-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -331,11 +252,11 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
-      "title": "global_indicators.8-1-1-title"
+      "title": "global_indicators.9-4-1-title"
     },
     {
       "path": "5-2-5/data.csv",
@@ -448,8 +369,262 @@
       "title": "global_indicators.5-2-5-title"
     },
     {
-      "path": "1-2-2/data.csv",
-      "name": "1-2-2",
+      "path": "10-1-4/data.csv",
+      "name": "10-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.10-1-4-title"
+    },
+    {
+      "path": "7-1-1/data.csv",
+      "name": "7-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.7-1-1-title"
+    },
+    {
+      "path": "9-6-2/data.csv",
+      "name": "9-6-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-6-2-title"
+    },
+    {
+      "path": "11-1-2/data.csv",
+      "name": "11-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.11-1-2-title"
+    },
+    {
+      "path": "6-2-1/data.csv",
+      "name": "6-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.6-2-1-title"
+    },
+    {
+      "path": "4-2-1/data.csv",
+      "name": "4-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -484,7 +659,1934 @@
           }
         ]
       },
-      "title": "global_indicators.1-2-2-title"
+      "title": "global_indicators.4-2-1-title"
+    },
+    {
+      "path": "9-6-6/data.csv",
+      "name": "9-6-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "구분",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "주택-전세",
+                "주택-월세",
+                "아파트-전세",
+                "아파트-월세",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "A. 시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "B. 시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "여주시",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-6-6-title"
+    },
+    {
+      "path": "5-4-3/data.csv",
+      "name": "5-4-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-3-title"
+    },
+    {
+      "path": "11-2-1/data.csv",
+      "name": "11-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.11-2-1-title"
+    },
+    {
+      "path": "9-1-3/data.csv",
+      "name": "9-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-1-3-title"
+    },
+    {
+      "path": "5-3-3/data.csv",
+      "name": "5-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-3-title"
+    },
+    {
+      "path": "9-2-4/data.csv",
+      "name": "9-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-2-4-title"
+    },
+    {
+      "path": "9-1-1/data.csv",
+      "name": "9-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-1-1-title"
+    },
+    {
+      "path": "5-1-1/data.csv",
+      "name": "5-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "* 서울 본청",
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "* 인천 본청",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "* 경기 본청",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-1-1-title"
+    },
+    {
+      "path": "5-2-2/data.csv",
+      "name": "5-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-2-2-title"
+    },
+    {
+      "path": "1-1-1/data.csv",
+      "name": "1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-1-1-title"
+    },
+    {
+      "path": "10-1-3/data.csv",
+      "name": "10-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.10-1-3-title"
+    },
+    {
+      "path": "6-1-1/data.csv",
+      "name": "6-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.6-1-1-title"
+    },
+    {
+      "path": "9-3-2/data.csv",
+      "name": "9-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-3-2-title"
+    },
+    {
+      "path": "5-3-2/data.csv",
+      "name": "5-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-2-title"
+    },
+    {
+      "path": "11-1-3/data.csv",
+      "name": "11-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.11-1-3-title"
+    },
+    {
+      "path": "10-2-1/data.csv",
+      "name": "10-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.10-2-1-title"
+    },
+    {
+      "path": "5-1-2/data.csv",
+      "name": "5-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "* 서울 본청",
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "* 인천 본청",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "* 경기 본청",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-1-2-title"
+    },
+    {
+      "path": "2-2-1/data.csv",
+      "name": "2-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.2-2-1-title"
+    },
+    {
+      "path": "9-2-2/data.csv",
+      "name": "9-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-2-2-title"
+    },
+    {
+      "path": "9-4-2/data.csv",
+      "name": "9-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-4-2-title"
+    },
+    {
+      "path": "4-2-4/data.csv",
+      "name": "4-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.4-2-4-title"
+    },
+    {
+      "path": "10-2-2/data.csv",
+      "name": "10-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.10-2-2-title"
+    },
+    {
+      "path": "1-1-2/data.csv",
+      "name": "1-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-1-2-title"
+    },
+    {
+      "path": "3-2-1/data.csv",
+      "name": "3-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-2-1-title"
+    },
+    {
+      "path": "10-2-4/data.csv",
+      "name": "10-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.10-2-4-title"
+    },
+    {
+      "path": "5-4-5/data.csv",
+      "name": "5-4-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-5-title"
     },
     {
       "path": "10-1-5/data.csv",
@@ -608,8 +2710,8 @@
       "title": "global_indicators.10-1-5-title"
     },
     {
-      "path": "2-1-1/data.csv",
-      "name": "2-1-1",
+      "path": "4-2-2/data.csv",
+      "name": "4-2-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -644,58 +2746,11 @@
           }
         ]
       },
-      "title": "global_indicators.2-1-1-title"
+      "title": "global_indicators.4-2-2-title"
     },
     {
-      "path": "6-2-4/data.csv",
-      "name": "6-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "구분",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "사업체수",
-                "종사자수",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.6-2-4-title"
-    },
-    {
-      "path": "11-1-2/data.csv",
-      "name": "11-1-2",
+      "path": "6-1-3/data.csv",
+      "name": "6-1-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -723,15 +2778,15 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
-      "title": "global_indicators.11-1-2-title"
+      "title": "global_indicators.6-1-3-title"
     },
     {
-      "path": "1-1-3/data.csv",
-      "name": "1-1-3",
+      "path": "1-2-3/data.csv",
+      "name": "1-2-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -766,11 +2821,11 @@
           }
         ]
       },
-      "title": "global_indicators.1-1-3-title"
+      "title": "global_indicators.1-2-3-title"
     },
     {
-      "path": "5-4-3/data.csv",
-      "name": "5-4-3",
+      "path": "9-6-3/data.csv",
+      "name": "9-6-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -876,11 +2931,11 @@
           }
         ]
       },
-      "title": "global_indicators.5-4-3-title"
+      "title": "global_indicators.9-6-3-title"
     },
     {
-      "path": "10-1-6/data.csv",
-      "name": "10-1-6",
+      "path": "9-6-4/data.csv",
+      "name": "9-6-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -986,11 +3041,11 @@
           }
         ]
       },
-      "title": "global_indicators.10-1-6-title"
+      "title": "global_indicators.9-6-4-title"
     },
     {
-      "path": "3-1-3/data.csv",
-      "name": "3-1-3",
+      "path": "5-2-3/data.csv",
+      "name": "5-2-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1003,33 +3058,104 @@
             "type": "integer"
           },
           {
-            "name": "지역",
+            "name": "시도",
             "type": "string",
             "constraints": {
               "enum": [
                 "0.전국",
                 "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "string"
           }
         ]
       },
-      "title": "global_indicators.3-1-3-title"
+      "title": "global_indicators.5-2-3-title"
     },
     {
-      "path": "11-2-1/data.csv",
-      "name": "11-2-1",
+      "path": "11-1-4/data.csv",
+      "name": "11-1-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1061,50 +3187,11 @@
           }
         ]
       },
-      "title": "global_indicators.11-2-1-title"
+      "title": "global_indicators.11-1-4-title"
     },
     {
-      "path": "4-2-4/data.csv",
-      "name": "4-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.4-2-4-title"
-    },
-    {
-      "path": "7-1-1/data.csv",
-      "name": "7-1-1",
+      "path": "9-4-3/data.csv",
+      "name": "9-4-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1136,50 +3223,11 @@
           }
         ]
       },
-      "title": "global_indicators.7-1-1-title"
+      "title": "global_indicators.9-4-3-title"
     },
     {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-2-1-title"
-    },
-    {
-      "path": "5-2-6/data.csv",
-      "name": "5-2-6",
+      "path": "5-2-4/data.csv",
+      "name": "5-2-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1207,15 +3255,15 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
-      "title": "global_indicators.5-2-6-title"
+      "title": "global_indicators.5-2-4-title"
     },
     {
-      "path": "9-2-2/data.csv",
-      "name": "9-2-2",
+      "path": "5-4-1/data.csv",
+      "name": "5-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1321,11 +3369,11 @@
           }
         ]
       },
-      "title": "global_indicators.9-2-2-title"
+      "title": "global_indicators.5-4-1-title"
     },
     {
-      "path": "6-1-1/data.csv",
-      "name": "6-1-1",
+      "path": "11-2-4/data.csv",
+      "name": "11-2-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1357,47 +3405,11 @@
           }
         ]
       },
-      "title": "global_indicators.6-1-1-title"
+      "title": "global_indicators.11-2-4-title"
     },
     {
-      "path": "6-3-3/data.csv",
-      "name": "6-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.6-3-3-title"
-    },
-    {
-      "path": "5-2-2/data.csv",
-      "name": "5-2-2",
+      "path": "5-4-2/data.csv",
+      "name": "5-4-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1503,7 +3515,299 @@
           }
         ]
       },
-      "title": "global_indicators.5-2-2-title"
+      "title": "global_indicators.5-4-2-title"
+    },
+    {
+      "path": "6-3-2/data.csv",
+      "name": "6-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.6-3-2-title"
+    },
+    {
+      "path": "9-1-5/data.csv",
+      "name": "9-1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-1-5-title"
+    },
+    {
+      "path": "8-1-1/data.csv",
+      "name": "8-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.8-1-1-title"
+    },
+    {
+      "path": "9-1-4/data.csv",
+      "name": "9-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시군구",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "강남구",
+                "강동구",
+                "강북구",
+                "강서구",
+                "관악구",
+                "광진구",
+                "구로구",
+                "금천구",
+                "노원구",
+                "도봉구",
+                "동대문구",
+                "동작구",
+                "마포구",
+                "서대문구",
+                "서초구",
+                "성동구",
+                "성북구",
+                "송파구",
+                "양천구",
+                "영등포구",
+                "용산구",
+                "은평구",
+                "종로구",
+                "중구",
+                "중랑구",
+                "강화군",
+                "계양구",
+                "남동구",
+                "동구",
+                "미추홀구",
+                "부평구",
+                "서구",
+                "연수구",
+                "옹진군",
+                "가평군",
+                "고양시",
+                "과천시",
+                "광명시",
+                "광주시",
+                "구리시",
+                "군포시",
+                "김포시",
+                "남양주시",
+                "동두천시",
+                "부천시",
+                "성남시",
+                "수원시",
+                "시흥시",
+                "안산시",
+                "안성시",
+                "안양시",
+                "양주시",
+                "양평군",
+                "여주시",
+                "연천군",
+                "오산시",
+                "용인시",
+                "의왕시",
+                "의정부시",
+                "이천시",
+                "파주시",
+                "평택시",
+                "포천시",
+                "하남시",
+                "화성시",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-1-4-title"
     },
     {
       "path": "9-3-4/data.csv",
@@ -1542,44 +3846,8 @@
       "title": "global_indicators.9-3-4-title"
     },
     {
-      "path": "10-2-2/data.csv",
-      "name": "10-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.10-2-2-title"
-    },
-    {
-      "path": "9-1-2/data.csv",
-      "name": "9-1-2",
+      "path": "9-1-6/data.csv",
+      "name": "9-1-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1685,11 +3953,50 @@
           }
         ]
       },
-      "title": "global_indicators.9-1-2-title"
+      "title": "global_indicators.9-1-6-title"
     },
     {
-      "path": "10-1-3/data.csv",
-      "name": "10-1-3",
+      "path": "2-2-3/data.csv",
+      "name": "2-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.2-2-3-title"
+    },
+    {
+      "path": "11-1-1/data.csv",
+      "name": "11-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1795,11 +4102,50 @@
           }
         ]
       },
-      "title": "global_indicators.10-1-3-title"
+      "title": "global_indicators.11-1-1-title"
     },
     {
-      "path": "9-6-1/data.csv",
-      "name": "9-6-1",
+      "path": "4-2-3/data.csv",
+      "name": "4-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.4-2-3-title"
+    },
+    {
+      "path": "7-1-4/data.csv",
+      "name": "7-1-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1827,47 +4173,11 @@
           },
           {
             "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-6-1-title"
-    },
-    {
-      "path": "9-4-2/data.csv",
-      "name": "9-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
             "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
           }
         ]
       },
-      "title": "global_indicators.9-4-2-title"
+      "title": "global_indicators.7-1-4-title"
     },
     {
       "path": "5-1-3/data.csv",
@@ -1983,6 +4293,231 @@
       "title": "global_indicators.5-1-3-title"
     },
     {
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-1-1-title"
+    },
+    {
+      "path": "3-1-3/data.csv",
+      "name": "3-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-1-3-title"
+    },
+    {
+      "path": "9-5-2/data.csv",
+      "name": "9-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-5-2-title"
+    },
+    {
+      "path": "10-2-3/data.csv",
+      "name": "10-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.10-2-3-title"
+    },
+    {
+      "path": "2-1-1/data.csv",
+      "name": "2-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.2-1-1-title"
+    },
+    {
+      "path": "5-2-6/data.csv",
+      "name": "5-2-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-2-6-title"
+    },
+    {
       "path": "9-2-3/data.csv",
       "name": "9-2-3",
       "profile": "tabular-data-resource",
@@ -2019,8 +4554,8 @@
       "title": "global_indicators.9-2-3-title"
     },
     {
-      "path": "11-1-3/data.csv",
-      "name": "11-1-3",
+      "path": "9-1-2/data.csv",
+      "name": "9-1-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2126,11 +4661,11 @@
           }
         ]
       },
-      "title": "global_indicators.11-1-3-title"
+      "title": "global_indicators.9-1-2-title"
     },
     {
-      "path": "5-4-5/data.csv",
-      "name": "5-4-5",
+      "path": "1-2-2/data.csv",
+      "name": "1-2-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2143,89 +4678,18 @@
             "type": "integer"
           },
           {
-            "name": "시도",
+            "name": "지역",
             "type": "string",
             "constraints": {
               "enum": [
                 "0.전국",
                 "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
                 ""
               ]
             }
@@ -2236,11 +4700,11 @@
           }
         ]
       },
-      "title": "global_indicators.5-4-5-title"
+      "title": "global_indicators.1-2-2-title"
     },
     {
-      "path": "10-2-1/data.csv",
-      "name": "10-2-1",
+      "path": "9-6-1/data.csv",
+      "name": "9-6-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2267,90 +4731,16 @@
             }
           },
           {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "number"
           }
         ]
       },
-      "title": "global_indicators.10-2-1-title"
+      "title": "global_indicators.9-6-1-title"
     },
     {
-      "path": "9-1-1/data.csv",
-      "name": "9-1-1",
+      "path": "9-5-1/data.csv",
+      "name": "9-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2377,75 +4767,40 @@
             }
           },
           {
-            "name": "시군구",
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-5-1-title"
+    },
+    {
+      "path": "1-1-3/data.csv",
+      "name": "1-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
             "type": "string",
             "constraints": {
               "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
                 ""
               ]
             }
@@ -2456,7 +4811,226 @@
           }
         ]
       },
-      "title": "global_indicators.9-1-1-title"
+      "title": "global_indicators.1-1-3-title"
+    },
+    {
+      "path": "7-1-3/data.csv",
+      "name": "7-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.7-1-3-title"
+    },
+    {
+      "path": "9-3-3/data.csv",
+      "name": "9-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-3-3-title"
+    },
+    {
+      "path": "4-1-1/data.csv",
+      "name": "4-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.4-1-1-title"
+    },
+    {
+      "path": "9-3-5/data.csv",
+      "name": "9-3-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-3-5-title"
+    },
+    {
+      "path": "5-3-4/data.csv",
+      "name": "5-3-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-4-title"
+    },
+    {
+      "path": "5-3-1/data.csv",
+      "name": "5-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-1-title"
     },
     {
       "path": "3-1-2/data.csv",
@@ -2496,262 +5070,6 @@
         ]
       },
       "title": "global_indicators.3-1-2-title"
-    },
-    {
-      "path": "6-1-2/data.csv",
-      "name": "6-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.6-1-2-title"
-    },
-    {
-      "path": "5-3-1/data.csv",
-      "name": "5-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-3-1-title"
-    },
-    {
-      "path": "9-3-2/data.csv",
-      "name": "9-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-3-2-title"
-    },
-    {
-      "path": "1-1-1/data.csv",
-      "name": "1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-1-1-title"
-    },
-    {
-      "path": "7-1-2/data.csv",
-      "name": "7-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.7-1-2-title"
     },
     {
       "path": "9-5-3/data.csv",
@@ -2864,157 +5182,8 @@
       "title": "global_indicators.9-5-3-title"
     },
     {
-      "path": "2-2-1/data.csv",
-      "name": "2-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.2-2-1-title"
-    },
-    {
-      "path": "9-6-4/data.csv",
-      "name": "9-6-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-6-4-title"
-    },
-    {
-      "path": "11-2-4/data.csv",
-      "name": "11-2-4",
+      "path": "6-3-1/data.csv",
+      "name": "6-3-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3046,11 +5215,11 @@
           }
         ]
       },
-      "title": "global_indicators.11-2-4-title"
+      "title": "global_indicators.6-3-1-title"
     },
     {
-      "path": "9-2-5/data.csv",
-      "name": "9-2-5",
+      "path": "6-1-2/data.csv",
+      "name": "6-1-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3082,2446 +5251,7 @@
           }
         ]
       },
-      "title": "global_indicators.9-2-5-title"
-    },
-    {
-      "path": "2-2-2/data.csv",
-      "name": "2-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.2-2-2-title"
-    },
-    {
-      "path": "5-4-6/data.csv",
-      "name": "5-4-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-6-title"
-    },
-    {
-      "path": "5-1-2/data.csv",
-      "name": "5-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "* 서울 본청",
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "* 인천 본청",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "* 경기 본청",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-1-2-title"
-    },
-    {
-      "path": "5-4-2/data.csv",
-      "name": "5-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-2-title"
-    },
-    {
-      "path": "5-2-1/data.csv",
-      "name": "5-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-1-title"
-    },
-    {
-      "path": "5-3-4/data.csv",
-      "name": "5-3-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-3-4-title"
-    },
-    {
-      "path": "10-2-3/data.csv",
-      "name": "10-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.10-2-3-title"
-    },
-    {
-      "path": "11-2-3/data.csv",
-      "name": "11-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.11-2-3-title"
-    },
-    {
-      "path": "2-1-2/data.csv",
-      "name": "2-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.2-1-2-title"
-    },
-    {
-      "path": "11-1-1/data.csv",
-      "name": "11-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.11-1-1-title"
-    },
-    {
-      "path": "9-6-5/data.csv",
-      "name": "9-6-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.9-6-5-title"
-    },
-    {
-      "path": "5-3-3/data.csv",
-      "name": "5-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-3-3-title"
-    },
-    {
-      "path": "5-2-3/data.csv",
-      "name": "5-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "string"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-3-title"
-    },
-    {
-      "path": "9-2-1/data.csv",
-      "name": "9-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-2-1-title"
-    },
-    {
-      "path": "9-3-3/data.csv",
-      "name": "9-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-3-3-title"
-    },
-    {
-      "path": "9-6-2/data.csv",
-      "name": "9-6-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-6-2-title"
-    },
-    {
-      "path": "3-2-1/data.csv",
-      "name": "3-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-2-1-title"
-    },
-    {
-      "path": "9-1-4/data.csv",
-      "name": "9-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-1-4-title"
-    },
-    {
-      "path": "10-1-4/data.csv",
-      "name": "10-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.10-1-4-title"
-    },
-    {
-      "path": "9-3-5/data.csv",
-      "name": "9-3-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-3-5-title"
-    },
-    {
-      "path": "9-1-5/data.csv",
-      "name": "9-1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-1-5-title"
-    },
-    {
-      "path": "9-5-1/data.csv",
-      "name": "9-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-5-1-title"
-    },
-    {
-      "path": "6-2-3/data.csv",
-      "name": "6-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.6-2-3-title"
-    },
-    {
-      "path": "6-2-2/data.csv",
-      "name": "6-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.6-2-2-title"
-    },
-    {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-1-1-title"
-    },
-    {
-      "path": "4-2-2/data.csv",
-      "name": "4-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.4-2-2-title"
-    },
-    {
-      "path": "9-4-3/data.csv",
-      "name": "9-4-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-4-3-title"
-    },
-    {
-      "path": "9-3-6/data.csv",
-      "name": "9-3-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-3-6-title"
-    },
-    {
-      "path": "3-2-2/data.csv",
-      "name": "3-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-2-2-title"
-    },
-    {
-      "path": "4-2-1/data.csv",
-      "name": "4-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.4-2-1-title"
-    },
-    {
-      "path": "10-1-2/data.csv",
-      "name": "10-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.10-1-2-title"
-    },
-    {
-      "path": "5-4-4/data.csv",
-      "name": "5-4-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-4-title"
-    },
-    {
-      "path": "11-1-4/data.csv",
-      "name": "11-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.11-1-4-title"
-    },
-    {
-      "path": "5-1-1/data.csv",
-      "name": "5-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "* 서울 본청",
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "* 인천 본청",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "* 경기 본청",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-1-1-title"
-    },
-    {
-      "path": "9-5-2/data.csv",
-      "name": "9-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-5-2-title"
-    },
-    {
-      "path": "10-2-4/data.csv",
-      "name": "10-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.10-2-4-title"
-    },
-    {
-      "path": "9-3-1/data.csv",
-      "name": "9-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-3-1-title"
-    },
-    {
-      "path": "1-1-2/data.csv",
-      "name": "1-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-1-2-title"
-    },
-    {
-      "path": "11-2-2/data.csv",
-      "name": "11-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.11-2-2-title"
-    },
-    {
-      "path": "9-6-6/data.csv",
-      "name": "9-6-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "구분",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "주택-전세",
-                "주택-월세",
-                "아파트-전세",
-                "아파트-월세",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "A. 시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "B. 시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "여주시",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.9-6-6-title"
-    },
-    {
-      "path": "4-1-1/data.csv",
-      "name": "4-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "지역",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.충청권",
-                "3.호남권",
-                "4.대경권",
-                "5.동남권",
-                "6.강원권",
-                "7.제주권",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.4-1-1-title"
-    },
-    {
-      "path": "5-3-2/data.csv",
-      "name": "5-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-3-2-title"
-    },
-    {
-      "path": "7-1-4/data.csv",
-      "name": "7-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.7-1-4-title"
-    },
-    {
-      "path": "6-1-3/data.csv",
-      "name": "6-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.6-1-3-title"
+      "title": "global_indicators.6-1-2-title"
     },
     {
       "path": "11-2-5/data.csv",
@@ -5634,8 +5364,8 @@
       "title": "global_indicators.11-2-5-title"
     },
     {
-      "path": "9-1-6/data.csv",
-      "name": "9-1-6",
+      "path": "5-4-6/data.csv",
+      "name": "5-4-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5741,11 +5471,11 @@
           }
         ]
       },
-      "title": "global_indicators.9-1-6-title"
+      "title": "global_indicators.5-4-6-title"
     },
     {
-      "path": "6-2-1/data.csv",
-      "name": "6-2-1",
+      "path": "10-1-2/data.csv",
+      "name": "10-1-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5777,193 +5507,11 @@
           }
         ]
       },
-      "title": "global_indicators.6-2-1-title"
+      "title": "global_indicators.10-1-2-title"
     },
     {
-      "path": "6-3-2/data.csv",
-      "name": "6-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.6-3-2-title"
-    },
-    {
-      "path": "9-4-1/data.csv",
-      "name": "9-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.9-4-1-title"
-    },
-    {
-      "path": "5-4-1/data.csv",
-      "name": "5-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "시군구",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "강남구",
-                "강동구",
-                "강북구",
-                "강서구",
-                "관악구",
-                "광진구",
-                "구로구",
-                "금천구",
-                "노원구",
-                "도봉구",
-                "동대문구",
-                "동작구",
-                "마포구",
-                "서대문구",
-                "서초구",
-                "성동구",
-                "성북구",
-                "송파구",
-                "양천구",
-                "영등포구",
-                "용산구",
-                "은평구",
-                "종로구",
-                "중구",
-                "중랑구",
-                "강화군",
-                "계양구",
-                "남동구",
-                "동구",
-                "미추홀구",
-                "부평구",
-                "서구",
-                "연수구",
-                "옹진군",
-                "가평군",
-                "고양시",
-                "과천시",
-                "광명시",
-                "광주시",
-                "구리시",
-                "군포시",
-                "김포시",
-                "남양주시",
-                "동두천시",
-                "부천시",
-                "성남시",
-                "수원시",
-                "시흥시",
-                "안산시",
-                "안성시",
-                "안양시",
-                "양주시",
-                "양평군",
-                "여주시",
-                "연천군",
-                "오산시",
-                "용인시",
-                "의왕시",
-                "의정부시",
-                "이천시",
-                "파주시",
-                "평택시",
-                "포천시",
-                "하남시",
-                "화성시",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-1-title"
-    },
-    {
-      "path": "7-1-3/data.csv",
-      "name": "7-1-3",
+      "path": "10-1-1/data.csv",
+      "name": "10-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5995,47 +5543,11 @@
           }
         ]
       },
-      "title": "global_indicators.7-1-3-title"
+      "title": "global_indicators.10-1-1-title"
     },
     {
-      "path": "5-2-4/data.csv",
-      "name": "5-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "시도",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0.전국",
-                "1.수도권",
-                "2.서울특별시",
-                "3.인천광역시",
-                "4.경기도",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-4-title"
-    },
-    {
-      "path": "4-2-3/data.csv",
-      "name": "4-2-3",
+      "path": "3-2-2/data.csv",
+      "name": "3-2-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -6070,11 +5582,50 @@
           }
         ]
       },
-      "title": "global_indicators.4-2-3-title"
+      "title": "global_indicators.3-2-2-title"
     },
     {
-      "path": "9-2-4/data.csv",
-      "name": "9-2-4",
+      "path": "4-1-2/data.csv",
+      "name": "4-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.4-1-2-title"
+    },
+    {
+      "path": "9-2-5/data.csv",
+      "name": "9-2-5",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -6106,11 +5657,316 @@
           }
         ]
       },
-      "title": "global_indicators.9-2-4-title"
+      "title": "global_indicators.9-2-5-title"
     },
     {
-      "path": "9-1-3/data.csv",
-      "name": "9-1-3",
+      "path": "5-2-1/data.csv",
+      "name": "5-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-2-1-title"
+    },
+    {
+      "path": "5-4-4/data.csv",
+      "name": "5-4-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-4-title"
+    },
+    {
+      "path": "6-2-2/data.csv",
+      "name": "6-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.6-2-2-title"
+    },
+    {
+      "path": "2-2-2/data.csv",
+      "name": "2-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.2-2-2-title"
+    },
+    {
+      "path": "2-1-2/data.csv",
+      "name": "2-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.충청권",
+                "3.호남권",
+                "4.대경권",
+                "5.동남권",
+                "6.강원권",
+                "7.제주권",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.2-1-2-title"
+    },
+    {
+      "path": "6-2-3/data.csv",
+      "name": "6-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.6-2-3-title"
+    },
+    {
+      "path": "11-2-2/data.csv",
+      "name": "11-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.11-2-2-title"
+    },
+    {
+      "path": "6-2-4/data.csv",
+      "name": "6-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "구분",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "사업체수",
+                "종사자수",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.6-2-4-title"
+    },
+    {
+      "path": "10-1-6/data.csv",
+      "name": "10-1-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -6216,7 +6072,151 @@
           }
         ]
       },
-      "title": "global_indicators.9-1-3-title"
+      "title": "global_indicators.10-1-6-title"
+    },
+    {
+      "path": "9-2-1/data.csv",
+      "name": "9-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-2-1-title"
+    },
+    {
+      "path": "9-3-6/data.csv",
+      "name": "9-3-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.9-3-6-title"
+    },
+    {
+      "path": "11-2-3/data.csv",
+      "name": "11-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.11-2-3-title"
+    },
+    {
+      "path": "9-6-5/data.csv",
+      "name": "9-6-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "시도",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.전국",
+                "1.수도권",
+                "2.서울특별시",
+                "3.인천광역시",
+                "4.경기도",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.9-6-5-title"
     }
   ]
 }
